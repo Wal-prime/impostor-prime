@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, Suspense }f rom 'react';
+import { useState, Suspense }from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { db, getAnonymousUser } from '@/lib/firebase';
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
